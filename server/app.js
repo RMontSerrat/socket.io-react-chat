@@ -1,24 +1,27 @@
-const users = [];
 const express = require('express');
 const port = 9010;
 const app = express();
 const server = require('http').createServer(app);
 const io = require('socket.io').listen(server);
+const messages = require('./utils/messages');
+
+const users = [];
 
 io.sockets.on('connection', function (socket) {
   socket.on('room', function(room) {
+    const now = new Date();
     socket.join(room);
     io.sockets.in(room).emit('create-room', room);
 
     let userName;
     socket.on('try-login', function (name) {
       if (users.indexOf(name) > -1) {
-        return io.sockets.in(room).emit('login-failed', 'Ja tem um login com esse nick na area!');
+        return io.sockets.in(room).emit('login-failed', messages('login-failed'));
       }
       userName = name;
       users.push(userName);
       const msgObj = {
-        system: true, msg: `${name} entrou na sala...`, date: new Date() };
+        system: true, msg: messages('login-success', { userName }), date: now };
   
       io.sockets.in(room).emit('msg', msgObj);
       io.sockets.in(room).emit('all-users', users);
@@ -28,7 +31,7 @@ io.sockets.on('connection', function (socket) {
     });
   
     socket.on('msg', function (msg) {
-      const msgObj = { userName, msg, date: new Date() };
+      const msgObj = { userName, msg, date: now };
   
       io.sockets.in(room).emit('msg', msgObj);
     });
@@ -40,7 +43,7 @@ io.sockets.on('connection', function (socket) {
   
       const msgObj = {
         system: true,
-        msg: `${userName} saiu da sala... :(`, date: new Date()
+        msg: messages('user-disconnect', { userName }), date: now
       };
   
       io.sockets.in(room).emit('msg', msgObj);
