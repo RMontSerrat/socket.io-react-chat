@@ -1,7 +1,9 @@
-const port = 9010;
-const io = require('socket.io').listen(port);
-
 const users = [];
+const express = require('express');
+const port = 9010;
+const app = express();
+const server = require('http').createServer(app);
+const io = require('socket.io').listen(server);
 
 io.sockets.on('connection', function (socket) {
   socket.on('room', function(room) {
@@ -46,3 +48,6 @@ io.sockets.on('connection', function (socket) {
   });
 });
 
+server.listen(port, function(){
+  console.log("Rodando o server!");
+});

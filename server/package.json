@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest"
   },
   "author": "Romulo Mont Serrat",
   "dependencies": {
+    "express": "^4.16.4",
+    "http": "^0.0.0",
+    "jest": "^24.7.1",
     "socket.io": "^2.0.4"
   }
 }
