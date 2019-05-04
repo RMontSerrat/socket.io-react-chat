@@ -1,4 +1,8 @@
-import { configure } from '@storybook/react';
+import { configure, addDecorator } from '@storybook/react';
+import { withThemesProvider } from 'storybook-addon-styled-component-theme';
+import theme from '../src/config/theme';
+
+addDecorator(withThemesProvider([theme]));
 
 function loadStories() {
   require('../src/stories/index.stories');
