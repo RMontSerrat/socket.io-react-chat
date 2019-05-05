@@ -17,11 +17,11 @@ const Name = styled.strong`
   padding-right: 5px;
 `
 
-const Message = ({ text, userName, date, active }) =>
+const Message = ({ children, userName = 'Servidor', date, active }) =>
   <Container active={active}>
     <DateContainer>[{new Date(date).toLocaleTimeString()}]</DateContainer>
-    {userName && <Name>{userName}:</Name>}
-    {text}
+    <Name>{userName}:</Name>
+    {children}
   </Container>
 
 export default Message;

@@ -27,6 +27,6 @@ const onSubmit = value => {
 storiesOf('Chat', module)
   .add('default', () => (
     <div style={{ backgroundColor: '#025a3f', padding: '20px' }}>
-      <Chat data={data} onSubmit={onSubmit} />
+      <Chat name="Default" data={data} onSubmit={onSubmit} />
     </div>
   ));

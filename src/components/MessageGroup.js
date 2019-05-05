@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const MessageGroup = styled.div`
   border-radius: ${props => props.theme.borderRadius};
   background: ${props => props.theme.colorWhite};
   padding: 15px;
@@ -10,9 +9,4 @@ const Container = styled.div`
     margin: 10px 0;
   }
 `
-const MessageGroup = ({ children }) =>
-  <Container>
-    {children}
-  </Container>
-
 export default MessageGroup;

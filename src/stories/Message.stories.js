@@ -5,17 +5,17 @@ import Message from '../components/Message';
 storiesOf('Message', module)
   .add('default', () => (
     <div style={{ padding: '20px' }}>
-      <Message userName="Romulo" date={new Date()} text="Fala galera" />
+      <Message userName="Romulo" date={new Date()}>Fala galera</Message>
     </div>
   ))
   .add('without userName', () => (
     <div style={{ padding: '20px' }}>
-      <Message date={new Date()} text="Romulo entrou na sala..." />
+      <Message userName="Servidor" date={new Date()}>Romulo entrou na sala...</Message>
     </div>
   ))
   .add('active', () => (
     <div style={{ padding: '20px' }}>
-      <Message userName="Romulo" active date={new Date()} text="Fala galera" />
+      <Message userName="Romulo" active date={new Date()}>Fala galera</Message>
     </div>
   ));
 
