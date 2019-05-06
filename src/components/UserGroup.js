@@ -9,6 +9,7 @@ const UserGroupContainer = styled.div`
 `
 const Title = styled.h2`
   font-family: ${props => props.theme.fontFamily};
+  margin: 0;
 `
 const UserGroup = ({ children }) => (
   <UserGroupContainer>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Input from './Input';
 import Button from './Button';
 
-const Container = styled.div`
+const Form = styled.form`
   display: flex;
 `
 
@@ -15,10 +15,12 @@ const ButtonContainer = styled.div`
 const MessageBar = ({ onSubmit }) => {
   const [inputValue, changeValue] = useState(null);
 
-  const handleSubmit = () => {
+  const handleSubmit = e => {
+    e.preventDefault();
     if (onSubmit) {
       onSubmit(inputValue);
     }
+    changeValue('');
   }
 
   const handleChange = e => {
@@ -27,16 +29,16 @@ const MessageBar = ({ onSubmit }) => {
   }
 
   return (
-    <Container>
+    <Form onSubmit={handleSubmit}>
       <Input
         placeholder="Digite sua mensagem aqui..."
         value={inputValue}
         onChange={handleChange}
       />
       <ButtonContainer>
-        <Button onClick={handleSubmit}>Enviar</Button>
+        <Button type="submit">Enviar</Button>
       </ButtonContainer>
-    </Container>
+    </Form>
   )
 }
 
