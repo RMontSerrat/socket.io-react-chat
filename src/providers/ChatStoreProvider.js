@@ -59,7 +59,7 @@ const reducer = (state, action) => {
         messages: state.messages.concat(action.message),
       };
     default:
-      throw new Error();
+      return state;
   }
 }
 

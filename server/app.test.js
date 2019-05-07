@@ -86,7 +86,6 @@ describe('Chat Events', function(){
     client1.on('all-users', function(users){
       numUsers += 1;
       if (numUsers === 2) {
-        console.log('users', users);
         expect(users).toEqual([chatUser1, chatUser2]);
         client1.disconnect();
       }
