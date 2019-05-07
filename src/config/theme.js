@@ -1,15 +1,20 @@
 const theme = {
-  colorPrimary: "#025a3f",
-  colorSecondary: '#B8C933',
-  colorRed: 'red',
-  colorWhite: '#fff',
-  colorBlack: '#000',
-  colorLightGreen: '#D2E6DC',
+  color: {
+    primary: "#025a3f",
+    secondary: '#B8C933',
+    red: '#B8C933',
+    white: '#ffffff',
+    black: '#000000',
+  },
   borderRadius: '5px',
-  fontFamily: 'Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif',
-  fontSize: '14px',
-  sizeIcon: 20,
-  padding: '15px'
+  font: {
+    primary: '"Roboto", "Helvetica", "Arial", sans-serif',
+    size: '14px',
+  },
+  icon: {
+    size: '20px',
+  },
+  padding: '15px',
 };
 
 export default theme;

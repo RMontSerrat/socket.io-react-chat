@@ -4,12 +4,11 @@ import styled from 'styled-components';
 
 const UserGroupContainer = styled.div`
   border-radius: ${props => props.theme.borderRadius};
-  background: ${props => props.theme.colorWhite};
+  background: ${props => props.theme.color.white};
   padding: ${props => props.theme.padding};
-  color: ${props => props.theme.colorPrimary};
+  color: ${props => props.theme.color.primary};
 `
 const Title = styled.h2`
-  font-family: ${props => props.theme.fontFamily};
   margin: 0;
   padding-bottom: 10px;
 `

@@ -14,8 +14,8 @@ const StyledInput = styled(Input)`
 `
 const Title = styled.h1`
   font-size: 20px;
-  font-family: ${props => props.theme.fontFamily};
-  color: ${props => props.theme.colorWhite};
+  font-family: ${props => props.theme.font.primary};
+  color: ${props => props.theme.color.white};
   margin: 0;
   padding: 20px 0;
   text-align: center;

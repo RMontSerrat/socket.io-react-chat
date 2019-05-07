@@ -8,12 +8,12 @@ const Message = styled.div`
   align-items: center;
   font-size: 15px;
   padding: 10px 0;
-  color: ${props => props.theme.colorWhite};
+  color: ${props => props.theme.color.white};
   svg {
     width: 20px;
     height: 20px;
     path {
-      fill: ${props => props.theme.colorRed};
+      fill: ${props => props.theme.color.red};
     }
   }
 `

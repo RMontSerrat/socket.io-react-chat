@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
-  color: ${props => props.theme.colorPrimary};
-  font-family: ${props => props.theme.fontFamily};
+  color: ${props => props.theme.color.primary};
   padding: 5px;
 `
 

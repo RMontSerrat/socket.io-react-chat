@@ -14,11 +14,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html, body {
-    font-family: ${props => props.theme.fontFamily};
+    font-family: ${props => props.theme.font.primary};
   }
 `
 const StyledApp = styled.div`
-  background-color: ${props => props.theme.colorPrimary};
+  background-color: ${props => props.theme.color.primary};
   height: 100%;
 `;
 
