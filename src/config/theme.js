@@ -1,19 +1,12 @@
 const theme = {
-  color: {
-    primary: "#025a3f",
-    secondary: '#B8C933',
-    red: '#B8C933',
-    white: '#ffffff',
-    black: '#000000',
-  },
+  colorPrimary: '#025a3f',
+  colorSecondary: '#B8C933',
+  colorRed: '#B8C933',
+  colorWhite: '#ffffff',
+  colorBlack: '#000000',
   borderRadius: '5px',
-  font: {
-    primary: '"Roboto", "Helvetica", "Arial", sans-serif',
-    size: '14px',
-  },
-  icon: {
-    size: '20px',
-  },
+  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+  sizeIcon: '20px',
   padding: '15px',
 };
 

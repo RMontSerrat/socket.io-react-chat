@@ -6,10 +6,10 @@ const StyledButton = styled.button`
   font-weight: bold;
   border-radius: ${props => props.theme.borderRadius};
   transition: all 0.2s ease-in 0s;
-  background: ${props => props.theme.color.secondary};
+  background: ${props => props.theme.colorSecondary};
   border: 0;
   padding: ${props => props.theme.padding};
-  color: ${props => props.theme.color.primary};
+  color: ${props => props.theme.colorPrimary};
   cursor: pointer;
   outline: none;
 `

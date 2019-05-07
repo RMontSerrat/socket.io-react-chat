@@ -5,8 +5,8 @@ import UserIcon from '../../icons/User';
 
 const UserContainer = styled.div`
   padding: 5px 0;
-  color: ${props => props.theme.color.primary};
-  font-family: ${props => props.theme.font.primary};
+  color: ${props => props.theme.colorPrimary};
+  font-family: ${props => props.theme.fontFamily};
   display: flex;
   font-size: 14px;
   align-items: center;

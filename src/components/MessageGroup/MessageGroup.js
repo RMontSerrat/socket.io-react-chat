@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 const MessageGroup = styled.div`
   border-radius: ${props => props.theme.borderRadius};
-  background: ${props => props.theme.color.white};
+  background: ${props => props.theme.colorWhite};
   padding: ${props => props.theme.padding};
-  color: ${props => props.theme.color.primary};
+  color: ${props => props.theme.colorPrimary};
   > div {
     margin: 10px 0;
   }

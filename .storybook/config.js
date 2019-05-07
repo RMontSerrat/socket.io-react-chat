@@ -1,6 +1,6 @@
 import { configure, addDecorator } from '@storybook/react';
 import { withThemesProvider } from 'storybook-addon-styled-component-theme';
-import theme from '../src/config/theme';
+import { theme } from '../src/config';
 
 addDecorator(withThemesProvider([theme]));
 

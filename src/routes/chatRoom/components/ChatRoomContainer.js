@@ -7,9 +7,9 @@ import Chat from '../../../components/Chat';
 import Message from '../../../components/Message';
 
 const Title = styled.h1`
-  font-family: ${props => props.theme.font.primary};
+  font-family: ${props => props.theme.fontFamily};
   font-size: 30px;
-  color: ${props => props.theme.color.white};
+  color: ${props => props.theme.colorWhite};
   grid-area: title;
   margin: 0;
   padding-bottom: ${props => props.theme.padding};
