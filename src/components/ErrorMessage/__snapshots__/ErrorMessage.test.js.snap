@@ -2,12 +2,7 @@
 
 exports[`<ErrorMessage /> should render 1`] = `
 <DocumentFragment>
-  .c1 {
-  width: px;
-  height: px;
-}
-
-.c0 {
+  .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -25,7 +20,7 @@ exports[`<ErrorMessage /> should render 1`] = `
   height: 20px;
 }
 
-.c2 {
+.c1 {
   padding-left: 10px;
 }
 
@@ -33,7 +28,7 @@ exports[`<ErrorMessage /> should render 1`] = `
     class="c0"
   >
     <svg
-      class="c1"
+      class=""
       focusable="false"
       role="img"
       viewBox="0 0 512 512"
@@ -44,7 +39,7 @@ exports[`<ErrorMessage /> should render 1`] = `
       />
     </svg>
     <span
-      class="c2"
+      class="c1"
     >
       Este usuário já existe
     </span>

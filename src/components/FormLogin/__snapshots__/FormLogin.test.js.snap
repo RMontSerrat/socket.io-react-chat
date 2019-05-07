@@ -70,11 +70,6 @@ exports[`<FormLogin /> should render with errorMessage 1`] = `
   outline: none;
 }
 
-.c5 {
-  width: px;
-  height: px;
-}
-
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -93,7 +88,7 @@ exports[`<FormLogin /> should render with errorMessage 1`] = `
   height: 20px;
 }
 
-.c6 {
+.c5 {
   padding-left: 10px;
 }
 
@@ -143,7 +138,7 @@ exports[`<FormLogin /> should render with errorMessage 1`] = `
       class="c4"
     >
       <svg
-        class="c5"
+        class=""
         focusable="false"
         role="img"
         viewBox="0 0 512 512"
@@ -154,7 +149,7 @@ exports[`<FormLogin /> should render with errorMessage 1`] = `
         />
       </svg>
       <span
-        class="c6"
+        class="c5"
       >
         Este usuário já existe
       </span>

@@ -7,11 +7,6 @@ exports[`<UserGroup /> should render 1`] = `
   padding-bottom: 10px;
 }
 
-.c2 {
-  width: px;
-  height: px;
-}
-
 .c1 {
   padding: 5px 0;
   display: -webkit-box;
@@ -25,7 +20,7 @@ exports[`<UserGroup /> should render 1`] = `
   align-items: center;
 }
 
-.c3 {
+.c2 {
   padding-left: 10px;
 }
 
@@ -41,7 +36,7 @@ exports[`<UserGroup /> should render 1`] = `
       class="c1"
     >
       <svg
-        class="c2"
+        class=""
         focusable="false"
         role="img"
         viewBox="0 0 448 512"
@@ -53,7 +48,7 @@ exports[`<UserGroup /> should render 1`] = `
         />
       </svg>
       <span
-        class="c3"
+        class="c2"
       >
         Romulo
       </span>
