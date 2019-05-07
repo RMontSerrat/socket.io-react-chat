@@ -1,7 +1,5 @@
 import io from 'socket.io-client';
-
-const socketUrl = 'http://localhost:9010';
-const socket = io(socketUrl);
+const socket = io('/');
 
 const actions = {
   sendMessage: msg => {
