@@ -55,7 +55,7 @@ const FormLogin = ({ onSubmit, errorMessage }) => {
 
 FormLogin.propTypes = {
   onSubmit: PropTypes.func,
-  errorMessage: PropTypes.string,
+  errorMessage: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
 }
 
 export default FormLogin;
