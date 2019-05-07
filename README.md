@@ -3,8 +3,9 @@
 Web Chat using Socket.io and React;
 
 ## Running with docker
-
-- `docker-compose up --build`
+1. `cp server/.env.default server/.env` (And alter vars as needed)
+2. `cp client/.env.default client/.env` (And alter vars as needed)`
+3. `docker-compose up --build`
 
 ## Server
 
