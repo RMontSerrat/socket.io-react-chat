@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "app.js",
   "scripts": {
-    "start": "node -r dotenv/config -r ./app.js",
+    "start": "node -r dotenv/config -r ./src/app.js",
     "test": "jest --setupFiles dotenv/config"
   },
   "author": "Romulo Mont Serrat",

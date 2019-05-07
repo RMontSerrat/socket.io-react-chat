@@ -63,5 +63,5 @@ io.sockets.on('connection', function (socket) {
 });
 
 server.listen(port, function(){
-  console.log("Rodando o server na porta", port);
+  console.log("Running the server on port", port);
 });

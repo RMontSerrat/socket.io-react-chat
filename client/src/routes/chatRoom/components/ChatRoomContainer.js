@@ -20,6 +20,10 @@ const GridContainer = styled.div`
   grid-gap: ${props => props.theme.padding};
   width: 100%;
   height: calc(100% - 50px);
+  @media (max-width: 600px) {
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto;
+  }
 `
 const Container = styled.div`
   display: flex;

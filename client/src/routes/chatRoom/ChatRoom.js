@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 import PropTypes from 'prop-types';
-import { chatActions } from '../../actions';
+import { chatService } from '../../services';
 import { 
   ChatStoreContext,
   SUCCESS_LOGIN,
@@ -57,13 +57,13 @@ const ChatRoom = ({ match: { params: { id } = {} } = {} }) => {
   }
 
   const loadServices = () => {
-    chatActions.onCreateRoom(onCreateRoom);
-    chatActions.onLoadUsers(loadUsers);
-    chatActions.onSendMessage(onSendMessage);
-    chatActions.onLoadMessages(loadMessages);
-    chatActions.onDisconnectUser(onDisconnect);
-    chatActions.onSuccessLogin(onSuccessLogin);
-    chatActions.onFailedLogin(onFailedLogin);
+    chatService.onCreateRoom(onCreateRoom);
+    chatService.onLoadUsers(loadUsers);
+    chatService.onSendMessage(onSendMessage);
+    chatService.onLoadMessages(loadMessages);
+    chatService.onDisconnectUser(onDisconnect);
+    chatService.onSuccessLogin(onSuccessLogin);
+    chatService.onFailedLogin(onFailedLogin);
   }
 
   useEffect(() => {
@@ -72,12 +72,12 @@ const ChatRoom = ({ match: { params: { id } = {} } = {} }) => {
   }, [])
 
   const handleSubmitChat = message => {
-    chatActions.sendMessage(message);
+    chatService.sendMessage(message);
   }
 
   const handleSubmitLogin = value => {
-    chatActions.createRoom(roomName);
-    chatActions.tryLogin(value);
+    chatService.createRoom(roomName);
+    chatService.tryLogin(value);
   }
 
   return (

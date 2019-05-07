@@ -2,6 +2,10 @@
 
 Web Chat using Socket.io and React;
 
+## Running with docker
+
+- `docker-compose up --build`
+
 ## Server
 
 1. `cd server`
@@ -16,11 +20,12 @@ Web Chat using Socket.io and React;
 
 ## Client
 
-1. `cp .env.default .env` (And alter vars as needed)
-2. `npm install`
-3. `npm start`
+1. `cd client`
+2. `cp .env.default .env` (And alter vars as needed)
+3. `npm install`
+4. `npm start`
 
-## Running tests
+## Running client tests
 
 - `npm test`
 
@@ -29,9 +34,8 @@ Web Chat using Socket.io and React;
 - `npm run storybook`
 
 
-## Building for production
+## Building client for production
 
 1. `cp .env.default .env` (And change vars as needed)
 2. `npm install --production`
 3. `npm run build`
-

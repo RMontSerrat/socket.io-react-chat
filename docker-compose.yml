@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  client:
+    container_name: c-socket-client
+    build:
+      context: .
+      target: development
+      dockerfile: ./Dockerfile.client
+    volumes:
+      - ./client/src:/client/src
+      - ./client/public:/client/bin
+    ports:
+      - 3000:3000
+    env_file:
+      - ./client/.env
+  server:
+    container_name: c-socket-server
+    build:
+      context: .
+      dockerfile: ./Dockerfile.server
+    volumes:
+      - ./server/src:/server/src
+    ports:
+      - 3001:3001
+    env_file:
+      - ./server/.env

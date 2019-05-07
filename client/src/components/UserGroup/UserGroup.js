@@ -8,6 +8,17 @@ const UserGroupContainer = styled.div`
   padding: ${props => props.theme.padding};
   color: ${props => props.theme.colorPrimary};
 `
+
+const Users = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 600px) {
+    flex-direction: row;
+    > div {
+      padding-right: 10px;
+    }
+  }
+`
 const Title = styled.h2`
   margin: 0;
   padding-bottom: 10px;
@@ -15,7 +26,9 @@ const Title = styled.h2`
 const UserGroup = ({ children }) => (
   <UserGroupContainer>
     <Title>Usuários</Title>
-    {children}
+    <Users>
+      {children}
+    </Users>
   </UserGroupContainer>
 )
 
