@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import MessageGroup from './MessageGroup';
-import MessageBar from './MessageBar';
+import MessageGroup from '../MessageGroup';
+import MessageBar from '../MessageBar';
 
 const MessageBarContainer = styled.div`
   padding-top: 15px;
@@ -25,5 +26,9 @@ const Chat = ({ onSubmit, children }) =>
     </MessageBarContainer>
   </ChatContainer>
 
+Chat.propTypes = {
+  onSubmit: PropTypes.func,
+  children: PropTypes.node,
+}
 
 export default Chat;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageBar /> should render 1`] = `
+<DocumentFragment>
+  <form
+    class="sc-htpNat cixthU"
+    data-testid="messageBarSubmit"
+  >
+    <input
+      class="sc-bdVaJa kCgXyL"
+      data-testid="messageBarInput"
+      placeholder="Digite sua mensagem aqui..."
+      value=""
+    />
+    <div
+      class="sc-bxivhb digzrY"
+    >
+      <button
+        class="sc-bwzfXH dMuoyQ"
+        type="submit"
+      >
+        Enviar
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`<MessageBar /> should render with onSubmit 1`] = `
+<DocumentFragment>
+  <form
+    class="sc-htpNat cixthU"
+    data-testid="messageBarSubmit"
+  >
+    <input
+      class="sc-bdVaJa kCgXyL"
+      data-testid="messageBarInput"
+      placeholder="Digite sua mensagem aqui..."
+      value=""
+    />
+    <div
+      class="sc-bxivhb digzrY"
+    >
+      <button
+        class="sc-bwzfXH dMuoyQ"
+        type="submit"
+      >
+        Enviar
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;

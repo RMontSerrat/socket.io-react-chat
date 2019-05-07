@@ -6,7 +6,6 @@ const Container = styled.div`
   color: ${props => props.theme.colorPrimary};
   font-family: ${props => props.theme.fontFamily};
   padding: 5px;
-  background-color: ${props => props.active ? props.theme.colorLightGreen : 'transparent'};
 `
 
 const DateContainer = styled.span`
@@ -17,8 +16,8 @@ const Name = styled.strong`
   padding-right: 5px;
 `
 
-const Message = ({ children, userName, system, date, active }) =>
-  <Container active={active}>
+const Message = ({ children, userName, system, date }) =>
+  <Container>
     <DateContainer>[{new Date(date).toLocaleTimeString()}]</DateContainer>
     <Name>{system ? 'Servidor' : userName}:</Name>
     {children}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Message /> should render with system type 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa iotKwd"
+  >
+    <span
+      class="sc-bwzfXH lhtsSV"
+    >
+      [22:00:00]
+    </span>
+    <strong
+      class="sc-htpNat dNWbJd"
+    >
+      Servidor:
+    </strong>
+    Romulo entrou na sala
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Message /> should render with userName 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa iotKwd"
+  >
+    <span
+      class="sc-bwzfXH lhtsSV"
+    >
+      [22:00:00]
+    </span>
+    <strong
+      class="sc-htpNat dNWbJd"
+    >
+      Romulo:
+    </strong>
+    Fala galera
+  </div>
+</DocumentFragment>
+`;

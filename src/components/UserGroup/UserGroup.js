@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const UserGroupContainer = styled.div`
@@ -17,4 +18,9 @@ const UserGroup = ({ children }) => (
     {children}
   </UserGroupContainer>
 )
+
+UserGroup.propTypes = {
+  children: PropTypes.node,
+}
+
 export default UserGroup;

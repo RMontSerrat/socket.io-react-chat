@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Input from './Input';
-import Button from './Button';
+import Input from '../Input';
+import Button from '../Button';
 
 const Form = styled.form`
   display: flex;
@@ -13,7 +13,7 @@ const ButtonContainer = styled.div`
 `
 
 const MessageBar = ({ onSubmit }) => {
-  const [inputValue, changeValue] = useState(null);
+  const [inputValue, changeValue] = useState('');
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -29,11 +29,12 @@ const MessageBar = ({ onSubmit }) => {
   }
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} data-testid="messageBarSubmit">
       <Input
         placeholder="Digite sua mensagem aqui..."
         value={inputValue}
         onChange={handleChange}
+        data-testid="messageBarInput"
       />
       <ButtonContainer>
         <Button type="submit">Enviar</Button>

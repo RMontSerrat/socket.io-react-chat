@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat /> should render 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bZQynM AMncx"
+  >
+    <div
+      class="sc-bdVaJa sc-gzVnrw jgxdhq"
+    >
+      <div
+        class="sc-htoDjs eVMzmp"
+      >
+        <span
+          class="sc-dnqmqq eDSTXh"
+        >
+          [22:00:00]
+        </span>
+        <strong
+          class="sc-iwsKbI eqOpHo"
+        >
+          Romulo:
+        </strong>
+        boa noite.
+      </div>
+    </div>
+    <div
+      class="sc-EHOje jmmCgm"
+    >
+      <form
+        class="sc-bxivhb cDFCAd"
+        data-testid="messageBarSubmit"
+      >
+        <input
+          class="sc-bwzfXH iEZaRp"
+          data-testid="messageBarInput"
+          placeholder="Digite sua mensagem aqui..."
+          value=""
+        />
+        <div
+          class="sc-ifAKCX kSBDcX"
+        >
+          <button
+            class="sc-htpNat hdRbgr"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
