@@ -6,10 +6,6 @@ const io = require('socket.io').listen(server);
 const getMessage = require('./utils/messages');
 
 const rooms = [];
-const initialParams = {
-  users: [],
-  messages: [],
-}
 
 io.sockets.on('connection', function (socket) {
   socket.on('room', function(roomId) {
@@ -17,7 +13,10 @@ io.sockets.on('connection', function (socket) {
     socket.join(roomId);
     io.sockets.in(roomId).emit('create-room', roomId);
     if (!rooms[roomId]) {
-      rooms[roomId] = initialParams;
+      rooms[roomId] = {
+        users: [],
+        messages: [],
+      };
     };
 
     const messages = rooms[roomId].messages;

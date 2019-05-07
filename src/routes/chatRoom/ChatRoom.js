@@ -14,8 +14,17 @@ import {
 import ChatRoomContainer from './components/ChatRoomContainer';
 import FormLogin from '../../components/FormLogin';
 
-const ChatRoom = ({ match: { params: { id }}}) => {
-  const { state: { allUsers, user, room, messages, failedLogin }, dispatch } = useContext(ChatStoreContext);
+const ChatRoom = ({ match: { params: { id } = {} } = {} }) => {
+  const {
+    state: {
+      allUsers,
+      user,
+      room,
+      messages,
+      failedLogin
+    }, 
+    dispatch
+  } = useContext(ChatStoreContext);
 
   const roomName = id || 'Default';
 
@@ -75,7 +84,7 @@ const ChatRoom = ({ match: { params: { id }}}) => {
       {user && room ?
         <ChatRoomContainer
           onSubmit={handleSubmitChat}
-          name={room}
+          name={roomName}
           users={allUsers}
           messages={messages}
         /> :

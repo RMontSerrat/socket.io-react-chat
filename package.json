@@ -2,7 +2,6 @@
   "name": "socket.io-react-chat",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
