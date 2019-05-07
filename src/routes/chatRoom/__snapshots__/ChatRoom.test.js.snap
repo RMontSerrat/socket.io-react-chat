@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatRoom /> should render ChatRoom with provider and id 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c2 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+<form
+    class="c0"
+    data-testid="formLoginSubmit"
+  >
+    <h1
+      class="c1"
+    >
+      Logue-se no Chat
+    </h1>
+    <input
+      class="c2"
+      data-testid="formLoginInput"
+      placeholder="Digite seu nickname"
+      required=""
+      value=""
+    />
+    <button
+      class="c3"
+      type="submit"
+    >
+      Enviar
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`<ChatRoom /> should render ChatRoom with provider and with failed login 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.c4 svg {
+  width: 20px;
+  height: 20px;
+}
+
+.c5 {
+  padding-left: 10px;
+}
+
+.c0 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c2 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+<form
+    class="c0"
+    data-testid="formLoginSubmit"
+  >
+    <h1
+      class="c1"
+    >
+      Logue-se no Chat
+    </h1>
+    <input
+      class="c2"
+      data-testid="formLoginInput"
+      placeholder="Digite seu nickname"
+      required=""
+      value=""
+    />
+    <button
+      class="c3"
+      type="submit"
+    >
+      Enviar
+    </button>
+    <div
+      class="c4"
+    >
+      <svg
+        class=""
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+      >
+        <path
+          d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+          fill="currentColor"
+        />
+      </svg>
+      <span
+        class="c5"
+      >
+        Usuário já existe
+      </span>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`<ChatRoom /> should render ChatRoom with provider and with props 1`] = `
+<DocumentFragment>
+  .c3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.c7 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+}
+
+.c9 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 {
+  width: 250px;
+  padding-left: 10px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  overflow-x: auto;
+  height: 100%;
+}
+
+.c5 > div {
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 30px;
+  grid-area: title;
+  margin: 0;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 250px auto;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: calc(100% - 30px);
+}
+
+<div
+    class="c0"
+  >
+    <h1
+      class="c1"
+    >
+      Chat Default
+    </h1>
+    <div
+      class="c2"
+    >
+      <div
+        class=""
+      >
+        <h2
+          class="c3"
+        >
+          Usuários
+        </h2>
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        />
+        <div
+          class=""
+        >
+          <form
+            class="c6"
+            data-testid="messageBarSubmit"
+          >
+            <input
+              class="c7"
+              data-testid="messageBarInput"
+              placeholder="Digite sua mensagem aqui..."
+              value=""
+            />
+            <div
+              class="c8"
+            >
+              <button
+                class="c9"
+                type="submit"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<ChatRoom /> should render ChatRoom with provider and without props 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c2 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+<form
+    class="c0"
+    data-testid="formLoginSubmit"
+  >
+    <h1
+      class="c1"
+    >
+      Logue-se no Chat
+    </h1>
+    <input
+      class="c2"
+      data-testid="formLoginInput"
+      placeholder="Digite seu nickname"
+      required=""
+      value=""
+    />
+    <button
+      class="c3"
+      type="submit"
+    >
+      Enviar
+    </button>
+  </form>
+</DocumentFragment>
+`;
