@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageGroup /> should render 1`] = `
+<DocumentFragment>
+  .c0 > div {
+  margin: 10px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+.c2 {
+  display: block;
+  padding-right: 10px;
+}
+
+.c3 {
+  padding-right: 5px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        [22:00:00]
+      </span>
+      <strong
+        class="c3"
+      >
+        Romulo:
+      </strong>
+      Fala galera
+    </div>
+  </div>
+</DocumentFragment>
+`;
