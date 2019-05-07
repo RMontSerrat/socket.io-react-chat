@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import { ChatStoreProvider } from './providers';
 import ChatRoom from './routes/chatRoom';
 import { theme, GlobalStyle } from '../src/style';
