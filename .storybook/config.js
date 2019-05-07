@@ -1,7 +1,18 @@
+import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import { withThemesProvider } from 'storybook-addon-styled-component-theme';
-import { theme } from '../src/config';
+import { theme, GlobalStyle } from '../src/style';
 
+function withGlobalStyles(storyFn) {
+  return (
+    <React.Fragment>
+      <GlobalStyle />
+      {storyFn()}
+    </React.Fragment>
+  );
+}
+
+addDecorator(withGlobalStyles);
 addDecorator(withThemesProvider([theme]));
 
 function loadStories() {

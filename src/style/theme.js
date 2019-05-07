@@ -1,7 +1,7 @@
 const theme = {
   colorPrimary: '#025a3f',
   colorSecondary: '#B8C933',
-  colorRed: '#B8C933',
+  colorRed: '#FD5858',
   colorWhite: '#ffffff',
   colorBlack: '#000000',
   borderRadius: '5px',
