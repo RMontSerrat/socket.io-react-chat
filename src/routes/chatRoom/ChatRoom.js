@@ -68,6 +68,7 @@ const ChatRoom = ({ match: { params: { id } = {} } = {} }) => {
 
   useEffect(() => {
     loadServices();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleSubmitChat = message => {
