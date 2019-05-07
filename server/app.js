@@ -54,8 +54,10 @@ io.sockets.on('connection', function (socket) {
         system: true,
         msg: getMessage('user-disconnect', { userName }), date: now
       };
-      messages.push(msgObj);
-      io.sockets.in(roomId).emit('msg', msgObj);
+      if (userName) {
+        messages.push(msgObj);
+        io.sockets.in(roomId).emit('msg', msgObj);
+      }
     });
   });
 });
