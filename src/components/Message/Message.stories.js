@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Message from '../components/Message';
+import Message from './Message';
 
 storiesOf('Message', module)
   .add('default', () => (
@@ -12,11 +12,5 @@ storiesOf('Message', module)
     <div style={{ padding: '20px' }}>
       <Message userName="Servidor" date={new Date()}>Romulo entrou na sala...</Message>
     </div>
-  ))
-  .add('active', () => (
-    <div style={{ padding: '20px' }}>
-      <Message userName="Romulo" active date={new Date()}>Fala galera</Message>
-    </div>
   ));
-
 

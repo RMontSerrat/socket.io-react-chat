@@ -5,7 +5,7 @@ import MessageGroup from '../MessageGroup';
 import MessageBar from '../MessageBar';
 
 const MessageBarContainer = styled.div`
-  padding-top: 15px;
+  padding-top: ${props => props.theme.padding};
 `
 const ChatContainer = styled.div`
   display: flex;

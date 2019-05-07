@@ -8,7 +8,7 @@ const StyledButton = styled.button`
   transition: all 0.2s ease-in 0s;
   background: ${props => props.theme.colorSecondary};
   border: 0;
-  padding: 15px;
+  padding: ${props => props.theme.padding};
   color: ${props => props.theme.colorPrimary};
   cursor: pointer;
   outline: none;

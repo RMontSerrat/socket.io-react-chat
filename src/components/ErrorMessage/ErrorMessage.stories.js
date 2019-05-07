@@ -1,10 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import MessageBar from '../components/MessageBar';
+import ErrorMessage from './ErrorMessage';
 
-storiesOf('MessageBar', module)
+storiesOf('ErrorMessage', module)
   .add('default', () => (
     <div style={{ backgroundColor: '#025a3f', padding: '20px' }}>
-      <MessageBar />
+      <ErrorMessage>O usuário já existe</ErrorMessage>
     </div>
   ));

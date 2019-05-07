@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import UserGroup from '../components/UserGroup';
-import User from '../components/User';
+import UserGroup from './UserGroup';
+import User from '../User';
 
 storiesOf('UserGroup', module)
   .add('default', () => (
