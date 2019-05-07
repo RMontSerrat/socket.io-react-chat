@@ -9,6 +9,11 @@ Web Chat using Socket.io and React;
 3. `npm install`
 4. `npm start`
 
+## Running server tests
+
+- `npm test`
+
+
 ## Client
 
 1. `cp .env.default .env` (And alter vars as needed)
