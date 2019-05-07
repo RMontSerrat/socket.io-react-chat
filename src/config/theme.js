@@ -5,7 +5,7 @@ const theme = {
   colorWhite: '#ffffff',
   colorBlack: '#000000',
   borderRadius: '5px',
-  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+  fontFamily: '"Helvetica", "Arial", sans-serif',
   sizeIcon: '20px',
   padding: '15px',
 };
