@@ -2,8 +2,18 @@
 
 exports[`<Button /> should render 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdVaJa kaJxkr"
+  .c0 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+<button
+    class="c0"
   >
     Click here
   </button>
@@ -12,8 +22,18 @@ exports[`<Button /> should render 1`] = `
 
 exports[`<Button /> should render a submit button 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-bdVaJa kaJxkr"
+  .c0 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+<button
+    class="c0"
     type="submit"
   >
     Click here

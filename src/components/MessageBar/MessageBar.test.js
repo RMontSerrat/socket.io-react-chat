@@ -1,6 +1,7 @@
 import React from "react";
 import { render, cleanup, fireEvent } from "react-testing-library";
 import MessageBar from "./MessageBar";
+import 'jest-styled-components'
 
 afterEach(cleanup);
 describe('<MessageBar />', () => {

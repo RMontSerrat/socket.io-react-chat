@@ -2,16 +2,33 @@
 
 exports[`<Message /> should render with system type 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-bdVaJa iotKwd"
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+.c1 {
+  display: block;
+  padding-right: 10px;
+}
+
+.c2 {
+  padding-right: 5px;
+}
+
+<div
+    class="c0"
   >
     <span
-      class="sc-bwzfXH lhtsSV"
+      class="c1"
     >
       [22:00:00]
     </span>
     <strong
-      class="sc-htpNat dNWbJd"
+      class="c2"
     >
       Servidor:
     </strong>
@@ -22,16 +39,33 @@ exports[`<Message /> should render with system type 1`] = `
 
 exports[`<Message /> should render with userName 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-bdVaJa iotKwd"
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+.c1 {
+  display: block;
+  padding-right: 10px;
+}
+
+.c2 {
+  padding-right: 5px;
+}
+
+<div
+    class="c0"
   >
     <span
-      class="sc-bwzfXH lhtsSV"
+      class="c1"
     >
       [22:00:00]
     </span>
     <strong
-      class="sc-htpNat dNWbJd"
+      class="c2"
     >
       Romulo:
     </strong>

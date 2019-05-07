@@ -2,6 +2,7 @@ import React from "react";
 import { render, cleanup, fireEvent } from "react-testing-library";
 import Chat from "./Chat";
 import Message from '../Message';
+import 'jest-styled-components'
 
 afterEach(cleanup);
 describe('<Chat />', () => {

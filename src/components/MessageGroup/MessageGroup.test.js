@@ -1,7 +1,8 @@
 import React from "react";
-import { render, cleanup, fireEvent } from "react-testing-library";
+import { render, cleanup } from "react-testing-library";
 import MessageGroup from "./MessageGroup";
 import Message from '../Message';
+import 'jest-styled-components'
 
 afterEach(cleanup);
 describe('<MessageGroup />', () => {

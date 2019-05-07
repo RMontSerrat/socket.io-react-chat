@@ -1,6 +1,7 @@
 import React from "react";
 import { render, cleanup } from "react-testing-library";
 import Button from "./Button";
+import 'jest-styled-components'
 
 afterEach(cleanup);
 describe('<Button />', () => {

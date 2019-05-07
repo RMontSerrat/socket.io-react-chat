@@ -2,21 +2,50 @@
 
 exports[`<MessageBar /> should render 1`] = `
 <DocumentFragment>
-  <form
-    class="sc-htpNat cixthU"
+  .c1 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+}
+
+.c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  width: 250px;
+  padding-left: 10px;
+}
+
+<form
+    class="c0"
     data-testid="messageBarSubmit"
   >
     <input
-      class="sc-bdVaJa kCgXyL"
+      class="c1"
       data-testid="messageBarInput"
       placeholder="Digite sua mensagem aqui..."
       value=""
     />
     <div
-      class="sc-bxivhb digzrY"
+      class="c2"
     >
       <button
-        class="sc-bwzfXH dMuoyQ"
+        class="c3"
         type="submit"
       >
         Enviar
@@ -28,21 +57,50 @@ exports[`<MessageBar /> should render 1`] = `
 
 exports[`<MessageBar /> should render with onSubmit 1`] = `
 <DocumentFragment>
-  <form
-    class="sc-htpNat cixthU"
+  .c1 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+}
+
+.c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  width: 250px;
+  padding-left: 10px;
+}
+
+<form
+    class="c0"
     data-testid="messageBarSubmit"
   >
     <input
-      class="sc-bdVaJa kCgXyL"
+      class="c1"
       data-testid="messageBarInput"
       placeholder="Digite sua mensagem aqui..."
       value=""
     />
     <div
-      class="sc-bxivhb digzrY"
+      class="c2"
     >
       <button
-        class="sc-bwzfXH dMuoyQ"
+        class="c3"
         type="submit"
       >
         Enviar

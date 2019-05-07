@@ -2,24 +2,54 @@
 
 exports[`<FormLogin /> should render 1`] = `
 <DocumentFragment>
-  <form
-    class="sc-EHOje ehIpTG"
+  .c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c2 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+<form
+    class="c0"
     data-testid="formLoginSubmit"
   >
     <h1
-      class="sc-gzVnrw eHeZpA"
+      class="c1"
     >
       Logue-se no Chat
     </h1>
     <input
-      class="sc-bdVaJa sc-bZQynM jejkMW"
+      class="c2"
       data-testid="formLoginInput"
       placeholder="Digite seu nickname"
       required=""
       value=""
     />
     <button
-      class="sc-bwzfXH dMuoyQ"
+      class="c3"
       type="submit"
     >
       Enviar
@@ -30,33 +60,90 @@ exports[`<FormLogin /> should render 1`] = `
 
 exports[`<FormLogin /> should render with errorMessage 1`] = `
 <DocumentFragment>
-  <form
-    class="sc-EHOje ehIpTG"
+  .c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c5 {
+  width: px;
+  height: px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.c4 svg {
+  width: 20px;
+  height: 20px;
+}
+
+.c6 {
+  padding-left: 10px;
+}
+
+.c0 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c2 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+<form
+    class="c0"
     data-testid="formLoginSubmit"
   >
     <h1
-      class="sc-gzVnrw eHeZpA"
+      class="c1"
     >
       Logue-se no Chat
     </h1>
     <input
-      class="sc-bdVaJa sc-bZQynM jejkMW"
+      class="c2"
       data-testid="formLoginInput"
       placeholder="Digite seu nickname"
       required=""
       value=""
     />
     <button
-      class="sc-bwzfXH dMuoyQ"
+      class="c3"
       type="submit"
     >
       Enviar
     </button>
     <div
-      class="sc-bxivhb cLlsZY"
+      class="c4"
     >
       <svg
-        class="sc-htpNat etkRys"
+        class="c5"
         focusable="false"
         role="img"
         viewBox="0 0 512 512"
@@ -67,7 +154,7 @@ exports[`<FormLogin /> should render with errorMessage 1`] = `
         />
       </svg>
       <span
-        class="sc-ifAKCX iYZAfF"
+        class="c6"
       >
         Este usuário já existe
       </span>
@@ -78,24 +165,54 @@ exports[`<FormLogin /> should render with errorMessage 1`] = `
 
 exports[`<FormLogin /> should render with onSubmit 1`] = `
 <DocumentFragment>
-  <form
-    class="sc-EHOje ehIpTG"
+  .c3 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c2 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+<form
+    class="c0"
     data-testid="formLoginSubmit"
   >
     <h1
-      class="sc-gzVnrw eHeZpA"
+      class="c1"
     >
       Logue-se no Chat
     </h1>
     <input
-      class="sc-bdVaJa sc-bZQynM jejkMW"
+      class="c2"
       data-testid="formLoginInput"
       placeholder="Digite seu nickname"
       required=""
       value=""
     />
     <button
-      class="sc-bwzfXH dMuoyQ"
+      class="c3"
       type="submit"
     >
       Enviar

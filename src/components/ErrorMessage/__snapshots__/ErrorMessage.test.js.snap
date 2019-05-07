@@ -2,11 +2,38 @@
 
 exports[`<ErrorMessage /> should render 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-bwzfXH hCLwjb"
+  .c1 {
+  width: px;
+  height: px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.c0 svg {
+  width: 20px;
+  height: 20px;
+}
+
+.c2 {
+  padding-left: 10px;
+}
+
+<div
+    class="c0"
   >
     <svg
-      class="sc-bdVaJa cnHfIs"
+      class="c1"
       focusable="false"
       role="img"
       viewBox="0 0 512 512"
@@ -17,7 +44,7 @@ exports[`<ErrorMessage /> should render 1`] = `
       />
     </svg>
     <span
-      class="sc-htpNat cpkZsw"
+      class="c2"
     >
       Este usuário já existe
     </span>

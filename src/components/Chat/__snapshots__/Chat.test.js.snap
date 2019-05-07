@@ -2,22 +2,87 @@
 
 exports[`<Chat /> should render 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-bZQynM AMncx"
+  .c6 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+}
+
+.c8 {
+  width: 100%;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  width: 250px;
+  padding-left: 10px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  overflow-x: auto;
+  height: 100%;
+}
+
+.c1 > div {
+  margin: 10px 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+.c3 {
+  display: block;
+  padding-right: 10px;
+}
+
+.c4 {
+  padding-right: 5px;
+}
+
+<div
+    class="c0"
   >
     <div
-      class="sc-bdVaJa sc-gzVnrw jgxdhq"
+      class="c1"
     >
       <div
-        class="sc-htoDjs eVMzmp"
+        class="c2"
       >
         <span
-          class="sc-dnqmqq eDSTXh"
+          class="c3"
         >
           [22:00:00]
         </span>
         <strong
-          class="sc-iwsKbI eqOpHo"
+          class="c4"
         >
           Romulo:
         </strong>
@@ -25,23 +90,23 @@ exports[`<Chat /> should render 1`] = `
       </div>
     </div>
     <div
-      class="sc-EHOje jmmCgm"
+      class=""
     >
       <form
-        class="sc-bxivhb cDFCAd"
+        class="c5"
         data-testid="messageBarSubmit"
       >
         <input
-          class="sc-bwzfXH iEZaRp"
+          class="c6"
           data-testid="messageBarInput"
           placeholder="Digite sua mensagem aqui..."
           value=""
         />
         <div
-          class="sc-ifAKCX kSBDcX"
+          class="c7"
         >
           <button
-            class="sc-htpNat hdRbgr"
+            class="c8"
             type="submit"
           >
             Enviar

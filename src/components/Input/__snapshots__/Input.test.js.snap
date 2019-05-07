@@ -2,8 +2,15 @@
 
 exports[`<Input /> should render 1`] = `
 <DocumentFragment>
-  <input
-    class="sc-bdVaJa kCgXyL"
+  .c0 {
+  padding: 15px 10px;
+  width: calc(100% - 20px);
+  border: 0;
+  outline: none;
+}
+
+<input
+    class="c0"
     value="romulo"
   />
 </DocumentFragment>
